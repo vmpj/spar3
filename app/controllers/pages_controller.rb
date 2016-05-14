@@ -22,13 +22,6 @@ class PagesController < ApplicationController
     # end
   end
 
-  # Declaring no_router and simple to indicate we have views for them
-  def no_router
-  end
-
-  def simple
-  end
-
   private
 
   def set_comments
